@@ -4,7 +4,6 @@
 
 
 	class MyStandardError < StandardError
-	
 	end
 
 	def raiseError
@@ -14,14 +13,13 @@
 	begin
 		raiseError	
 
-		puts backtrace
-
+	# puts backtrace
 	# rescue
 
 		puts 'Lets see if we can salvage this ordeal.'
 	end
 		
 
-		class OhhhhShitttt < Exception
-		end
+	class OhhhhShitttt < Exception
+	end
 		
